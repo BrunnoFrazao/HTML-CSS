@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 10px;
+            box-shadow: 20x 1x 1x 1x white;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            padding: 10px;
+            outline: 5px dashed blue; 
+            background-color: #098DE8;
+            color: blanchedalmond;
+        }
+
+        header > h2 {
+            
+            color: black;
+            font-weight: bolder;
+        }
+
+        header {
+            background-color: #390AF2;
+            padding: 10px;
+            color: black;
+            font-weight: bold;
+        }
+
+        main > li {
+            text-decoration: none;
+            font-weight: bolder;
+            border-right: 0px;
+            margin: auto;
+            padding: 5px;
+            color: red;
+        }
+
+        main > li:hover {
+            text-decoration: double;
+            background-color: #098DE8;
+            padding: 10px;
+        }
+
+        li > a {
+            text-decoration: none;
+            color: black;
+            box-shadow: 1x 1x 1x 1x white;
+
+        }
+
+        li > a:hover {
+            text-decoration: underline;
+        }
+
+        li > a:visited {
+            color: red;
+        }
+
+        li > a:active{
+            color: black;
+        }
+
+        article > aside {
+            font-weight: bolder;
+            color: pink;
+        }
+
+        footer{
+            font-weight: bolder;
+            color: #390AF2;
+            text-align: center;
+            margin: 0px
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Texte de layouts de caixas</h1>
+    <header>
+        <h2>Estudos de caixas</h2>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur asperiores possimus saepe aspernatur commodi fugiat velit expedita inventore, accusantium consectetur ipsam magni delectus. Dicta amet vel autem itaque, consectetur nobis?</p>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut id repellendus exercitationem deleniti, fuga libero corporis, mollitia suscipit et illo veniam vitae inventore accusantium sint, est facere alias laudantium?</p>
+                <aside>
+                    <p>Criado por Brunno</p>
+                </aside>
+            </article>
+        </section>
+    </header>
+
+    <main>
+    
+        <li><a href="#">Link de vizualização01</a></li>
+        <li><a href="#">Link de vizualização02</a></li>
+        <li><a href="#">Link de vizualização03</a></li>
+        <li><a href="#">Link de vizualização04</a></li>
+        
+    </main>
+
+    <footer>
+        Todos os direitos autorais de Brunno Frazao
+
+    </footer>
+</body>
+</html>
